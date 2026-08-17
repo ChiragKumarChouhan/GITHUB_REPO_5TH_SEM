@@ -24,6 +24,10 @@ const student = {
 };
 const { name, age, branch } = student;
 // const name = student.name;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d9a6087 (new_day)
 // const age = student.age;
 // const branch = student.branch;
 console.log(age, name, branch);
