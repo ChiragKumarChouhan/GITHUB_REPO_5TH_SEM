@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    gap: 10px;
+}
