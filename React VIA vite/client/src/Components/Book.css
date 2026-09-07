@@ -1,0 +1,23 @@
+.Book {
+  width: 220px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  background-color: white;
+}
+
+.Book img {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.Book h2 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.Book p {
+  font-size: 18px;
+}
