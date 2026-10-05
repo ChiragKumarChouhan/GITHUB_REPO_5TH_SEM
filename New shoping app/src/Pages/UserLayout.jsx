@@ -1,7 +1,9 @@
+import React from "react";
+import { Outlet } from "react-router-dom";
+
 import Header from "../Components/Header";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import { Outlet } from "react-router-dom";
 
 function UserLayout() {
   return (
@@ -9,7 +11,7 @@ function UserLayout() {
       <Header />
       <Navbar />
 
-      <main className="Home">
+      <main className="main-content">
         <Outlet />
       </main>
 

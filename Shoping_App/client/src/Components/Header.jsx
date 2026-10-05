@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className='Header'>
       <h1>
-        this is the header file
+        Shoping App
       </h1>
     </div>
   )
